@@ -30,4 +30,25 @@
   font-size: 16px;
   font-weight: 700;
   color: var(--color-primary);
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1440px) {
+  .next__title {
+    font-size: 20px;
+  }
+  .autoplay__text {
+    font-size: 10px;
+    letter-spacing: 0.63px;
+  }
+
+  .next__header {
+    margin-bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .next {
+    width: 100%;
+  }
 }

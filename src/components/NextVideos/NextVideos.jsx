@@ -46,7 +46,7 @@ export const NextVideos = () => {
       </div>
       <ul className="next__content">
         {nextImgsList.map((nextImg) => (
-          <NextVideoItem img={nextImg} />
+          <NextVideoItem img={nextImg} key={nextImg.title} />
         ))}
       </ul>
     </div>

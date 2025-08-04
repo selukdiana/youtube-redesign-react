@@ -8,3 +8,27 @@
   display: flex;
   gap: 40px;
 }
+
+.header .more-icon {
+  display: none;
+  font-size: 19px;
+}
+
+.header .more-icon .iconify {
+  color: black;
+  font-size: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+  .video-page__content {
+    display: block;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header .more-icon {
+    display: block;
+  }
+  .profile__img {
+    display: none;
+  }
+}

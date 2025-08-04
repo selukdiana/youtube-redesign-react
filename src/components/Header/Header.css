@@ -79,7 +79,9 @@
   color: black;
   font-size: 19px;
 }
-
+.search__btn .iconify {
+  color: inherit;
+}
 /* profile */
 
 .header__profile {

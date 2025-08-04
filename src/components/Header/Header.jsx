@@ -42,6 +42,9 @@ export const Header = ({ setIsSidebarOpen }) => {
           <div className="profile__img img__container">
             <img src={avatar} alt="avatar" className="avatar__img" />
           </div>
+          <div className="profile__menu-icon more-icon">
+            <Icon icon="nrk:more" />
+          </div>
         </div>
       </div>
     </header>

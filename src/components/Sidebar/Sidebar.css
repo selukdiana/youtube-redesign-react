@@ -80,6 +80,10 @@
     z-index: 1;
   }
 
+  .sidebar.hidden {
+    display: block;
+  }
+
   .sidebar__menu {
     width: 100%;
     display: flex;
@@ -101,7 +105,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0;
+    gap: 5px;
   }
 
   .sidebar__categories {

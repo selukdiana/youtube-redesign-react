@@ -30,8 +30,20 @@ export const Video = () => {
             </div>
           </div>
         </div>
+        <div className="video__controls-sm">
+          <Icon icon="material-symbols:pause" />
+          <div className="controls__duration">
+            <span className="duration__now">1:34</span>
+            <input type="range" className="controls__range" />
+            <span className="duratioan__all">19:00</span>
+          </div>
+          <Icon icon="material-symbols:volume-up" />
+        </div>
       </div>
-      <h2 className="video__title">Dude You Re Getting A Telescope</h2>
+      <p className="video__title">
+        <span>Dude You Re Getting A Telescope</span>
+        <Icon className="title__icon" icon="subway:down-2" />
+      </p>
       <div className="video__footer">
         <span className="video__views">123k views</span>
         <div className="video__actions">
@@ -61,6 +73,7 @@ export const Video = () => {
           <div className="about__content">
             <h3 className="about__title">Food & Drink</h3>
             <span className="about__date">Published on 14 Jun 2019</span>
+            <span className="about__subscribers">245K subscribed</span>
             <p className="about__description">
               A successful marketing plan relies heavily on the pulling-power of
               advertising copy. Writing result-oriented ad copy is difficult, as
@@ -73,7 +86,9 @@ export const Video = () => {
           </div>
         </div>
         <button className="video__btn subcription__btn">Subscribe 2.3m</button>
+        <button className="video__btn btn-transparent">Subscribe</button>
       </div>
+      <hr className="video__separator" />
     </div>
   );
 };
