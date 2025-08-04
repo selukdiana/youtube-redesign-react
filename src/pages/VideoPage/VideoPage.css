@@ -1,0 +1,10 @@
+.video-page {
+  padding-left: 80px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.video-page__content {
+  display: flex;
+  gap: 40px;
+}

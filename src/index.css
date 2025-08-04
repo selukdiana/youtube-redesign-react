@@ -32,13 +32,14 @@ html {
 
 main {
   flex-grow: 1;
-  max-width: calc(100vw - 250px);
+  max-width: 100vw;
   padding-left: 5px;
   overflow-y: auto;
 }
 
-.sidebar.hidden ~ main {
-  max-width: 100vw;
+.sidebar ~ main {
+  max-width: calc(100vw - 250px);
+  padding-left: 5px;
 }
 
 .title-first {
@@ -114,6 +115,28 @@ main {
 .subcription__btn:hover {
   transform: translateY(-5%);
 }
+
+.switch {
+  display: block;
+  width: 44px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: var(--color-search);
+  position: relative;
+  cursor: pointer;
+}
+
+.switch__btn {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(33, 150, 243, 1);
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
 @media screen and (max-width: 768px) {
   .content {
     height: calc(100vh - 54px);

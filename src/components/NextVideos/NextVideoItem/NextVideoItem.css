@@ -1,0 +1,31 @@
+.next__item {
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.next__item:hover {
+  transform: translateY(-2%);
+}
+
+.next__img {
+  width: 100%;
+  height: 213px;
+  border-radius: 14px;
+  margin-bottom: 13px;
+}
+
+.next-content__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 11px;
+  color: var(--color-primary);
+}
+
+.next-content__description {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-secondary);
+}
