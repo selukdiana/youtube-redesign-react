@@ -80,10 +80,6 @@
     z-index: 1;
   }
 
-  .sidebar.hidden {
-    display: block;
-  }
-
   .sidebar__menu {
     width: 100%;
     display: flex;

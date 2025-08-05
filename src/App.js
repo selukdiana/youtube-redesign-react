@@ -10,7 +10,7 @@ function App() {
     <>
       <Header setIsSidebarOpen={setIsSidebarOpen} />
       <div className="content">
-        <Sidebar className={isSidebarOpen ? "" : "hidden"} />
+        <Sidebar isSidebarOpen={isSidebarOpen} />
         <VideoPage />
       </div>
     </>

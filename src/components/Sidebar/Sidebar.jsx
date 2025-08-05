@@ -6,9 +6,10 @@ import Eunice from "../../imgs/eunice.png";
 import Emma from "../../imgs/emma.png";
 import Leah from "../../imgs/leah.png";
 import "./Sidebar.css";
-export const Sidebar = ({ className }) => {
+export const Sidebar = ({ isSidebarOpen }) => {
+  const className = isSidebarOpen ? "" : " hidden";
   return (
-    <aside className={"sidebar " + className}>
+    <aside className={"sidebar" + className}>
       <ul className="sidebar__menu sidebar__items">
         <li className="sidebar__item">
           <a href="#">
