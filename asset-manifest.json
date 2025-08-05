@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/youtube-redesign-react/static/css/main.6a92574b.css",
+    "main.js": "/youtube-redesign-react/static/js/main.0f4dc995.js",
+    "static/js/453.00e70ac5.chunk.js": "/youtube-redesign-react/static/js/453.00e70ac5.chunk.js",
+    "static/media/3.png": "/youtube-redesign-react/static/media/3.f00ad8970355aea39a48.png",
+    "static/media/1.png": "/youtube-redesign-react/static/media/1.b59b8062426cf7d96ba1.png",
+    "static/media/channel.png": "/youtube-redesign-react/static/media/channel.448115f0182596f50a74.png",
+    "static/media/2.png": "/youtube-redesign-react/static/media/2.444dee32b1f80945c037.png",
+    "static/media/4.png": "/youtube-redesign-react/static/media/4.31157b77067e64719d94.png",
+    "static/media/poster.png": "/youtube-redesign-react/static/media/poster.631784b441da9b4ef5dc.png",
+    "static/media/avatar.png": "/youtube-redesign-react/static/media/avatar.7cbda25998fabc6105a0.png",
+    "static/media/emma.png": "/youtube-redesign-react/static/media/emma.5016200b0568c1922ca7.png",
+    "static/media/gussie.png": "/youtube-redesign-react/static/media/gussie.c8064a0ce29bdedfd6fb.png",
+    "static/media/belle.png": "/youtube-redesign-react/static/media/belle.32a7e578fbcc926a20f8.png",
+    "static/media/nora.png": "/youtube-redesign-react/static/media/nora.32e060d439707ca8c7a5.png",
+    "static/media/eunice.png": "/youtube-redesign-react/static/media/eunice.00d5682f0606b93405af.png",
+    "static/media/leah.png": "/youtube-redesign-react/static/media/leah.9eb9baab01811ab1beb5.png",
+    "index.html": "/youtube-redesign-react/index.html",
+    "main.6a92574b.css.map": "/youtube-redesign-react/static/css/main.6a92574b.css.map",
+    "main.0f4dc995.js.map": "/youtube-redesign-react/static/js/main.0f4dc995.js.map",
+    "453.00e70ac5.chunk.js.map": "/youtube-redesign-react/static/js/453.00e70ac5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a92574b.css",
+    "static/js/main.0f4dc995.js"
+  ]
+}
