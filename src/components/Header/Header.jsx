@@ -15,7 +15,7 @@ export const Header = ({ setIsSidebarOpen }) => {
           <div className="burger__line"></div>
           <div className="burger__line"></div>
         </div>
-        <a href="channel.html">
+        <a href="#">
           <img src={logo} alt="logo" height="25px" />
         </a>
       </div>

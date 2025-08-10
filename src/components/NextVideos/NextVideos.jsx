@@ -1,36 +1,7 @@
-import "./NextVideos.css";
+import { nextImgsList } from "../../constants";
 import { NextVideoItem } from "./NextVideoItem";
-import img1 from "../../imgs/next/1.png";
-import img2 from "../../imgs/next/2.png";
-import img3 from "../../imgs/next/3.png";
-import img4 from "../../imgs/next/4.png";
+import "./NextVideos.css";
 
-const nextImgsList = [
-  {
-    src: img1,
-    title: "Baby Monitor Technology",
-    views: "123k",
-    author: "Dollie Blair",
-  },
-  {
-    src: img2,
-    title: "A Good Autoresponder",
-    views: "123k",
-    author: "Dollie Blair",
-  },
-  {
-    src: img3,
-    title: "Selecting The Right Hotel",
-    views: "123k",
-    author: "Dollie Blair",
-  },
-  {
-    src: img4,
-    title: "Baby Monitor Technology",
-    views: "123k",
-    author: "Dollie Blair",
-  },
-];
 export const NextVideos = () => {
   return (
     <div className="next">
